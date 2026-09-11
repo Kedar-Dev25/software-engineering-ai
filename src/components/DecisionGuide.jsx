@@ -1,3 +1,7 @@
+import "../App.css";
+import "../index.css";
+
+
 function DecisionGuide() {
   const decisions = [
     {

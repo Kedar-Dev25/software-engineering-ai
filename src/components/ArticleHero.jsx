@@ -1,3 +1,6 @@
+import "../App.css";
+import "../index.css"
+
 function ArticleHero() {
   return (
     <section className="article-hero" id="article">

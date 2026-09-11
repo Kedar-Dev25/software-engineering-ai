@@ -1,3 +1,6 @@
+import "../App.css";
+import "../index.css";
+
 function ArticleSection() {
   return (
     <article className="article-content">
