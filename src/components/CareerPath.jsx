@@ -1,6 +1,6 @@
+
 import "../App.css";
 import "../index.css";
-
 
 function CareerPath() {
   const paths = [
@@ -9,7 +9,7 @@ function CareerPath() {
       title: "AI / ML Researcher",
       subtitle: "Inventing and improving AI methods",
       description:
-        "AI researchers work on the underlying science of artificial intelligence. Their work can involve developing new algorithms, improving model architectures, studying how models learn, or finding better ways to solve problems with machine learning.",
+        "AI and machine learning researchers work on the underlying science of artificial intelligence. They may develop new algorithms, improve model architectures, study how models learn, or investigate better ways to solve problems with machine learning.",
       work: [
         "Design and test new machine learning methods",
         "Study model behavior and learning techniques",
@@ -26,7 +26,7 @@ function CareerPath() {
         "Research methodology",
         "Python and scientific computing",
       ],
-      fit: "Best suited to people who enjoy mathematics, experiments, theory, and discovering how things work.",
+      fit: "Best suited to people who enjoy mathematics, experiments, theory, and understanding how AI systems work at a deeper level.",
     },
 
     {
@@ -34,7 +34,7 @@ function CareerPath() {
       title: "Machine Learning Engineer",
       subtitle: "Building production machine learning systems",
       description:
-        "Machine Learning Engineers take machine learning models from experimentation toward real-world systems. Their work sits between software engineering, data, and machine learning.",
+        "Machine learning engineers turn machine learning models into reliable systems that can work in real products. Their work sits between software engineering, data, model development, and production infrastructure.",
       work: [
         "Prepare and process data",
         "Train and evaluate machine learning models",
@@ -52,7 +52,7 @@ function CareerPath() {
         "Cloud and deployment",
         "Software engineering",
       ],
-      fit: "A strong fit if you enjoy both software engineering and working deeply with data and machine learning models.",
+      fit: "A strong fit if you enjoy software engineering but also want to work deeply with data, models, and machine learning systems.",
     },
 
     {
@@ -60,7 +60,7 @@ function CareerPath() {
       title: "AI Engineer",
       subtitle: "Building applications around AI models",
       description:
-        "AI Engineers focus on turning modern AI capabilities into useful software. Instead of creating every model from scratch, they often work with existing models and build the systems around them.",
+        "AI engineers turn modern AI capabilities into useful software. Instead of creating every model from scratch, they often work with existing models and build the applications, data flows, and systems that make those models useful in production.",
       work: [
         "Integrate AI models into applications",
         "Work with model APIs and SDKs",
@@ -86,7 +86,7 @@ function CareerPath() {
       title: "AI-Powered Software Engineer",
       subtitle: "Software engineering with AI as a capability",
       description:
-        "An AI-powered software engineer is still fundamentally a software engineer. The difference is that AI becomes another tool or capability they can use when building products.",
+        "An AI-powered software engineer is still fundamentally a software engineer. The difference is that AI becomes another tool and capability they can use to build, improve, and extend real software products.",
       work: [
         "Build complete web or mobile applications",
         "Design APIs and backend systems",
@@ -105,7 +105,7 @@ function CareerPath() {
         "System design",
         "AI fundamentals and AI integration",
       ],
-      fit: "A strong fit if your main interest is building useful software products and you want to use AI without making machine learning your entire career.",
+      fit: "A strong fit if your main interest is building useful software products and you want to use AI without making machine learning the entire focus of your career.",
     },
   ];
 
@@ -114,12 +114,14 @@ function CareerPath() {
       <div className="career-path-intro">
         <p className="section-number">07</p>
 
-        <h2>Which AI path actually interests you?</h2>
+        <h2>Which AI career path is right for you?</h2>
 
         <p>
           These roles overlap, but they are not interchangeable. Understanding
-          the difference can save you from spending months learning skills for
-          a career you do not actually want.
+          the difference between an AI researcher, machine learning engineer,
+          AI engineer, and AI-powered software engineer can help you avoid
+          spending months learning skills for a career you do not actually
+          want.
         </p>
       </div>
 

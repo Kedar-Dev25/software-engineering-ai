@@ -8,19 +8,19 @@ function ArticleSection() {
       <section id="what-ai-does" className="article-section">
         <p className="section-number">01</p>
 
-        <h2>What AI actually does</h2>
+        <h2>What AI actually does in software development</h2>
 
         <p>
           Before deciding what to learn, it helps to understand what AI
-          actually is. The word “AI” is used for everything from chatbots to
-          recommendation systems, so it can sound much more mysterious than
-          it really is.
+          actually does. The word “AI” is used for everything from chatbots
+          and recommendation systems to coding assistants, so it can sound
+          much more mysterious than it really is.
         </p>
 
         <p>
           At a practical level, modern AI systems learn patterns from large
-          amounts of data and use those learned patterns to make predictions
-          or generate outputs.
+          amounts of data and use those learned patterns to make predictions,
+          classifications, or generated outputs.
         </p>
 
         <p>
@@ -33,8 +33,9 @@ function ArticleSection() {
 
         <p>
           That is why an AI coding assistant can generate a Java class,
-          explain a React component, or suggest a SQL query without someone
-          manually writing every possible example into the system.
+          explain a React component, suggest a SQL query, write tests, or
+          help debug an error without a developer manually writing every
+          possible example into the system.
         </p>
 
         <div className="article-note">
@@ -48,10 +49,10 @@ function ArticleSection() {
       </section>
 
       {/* Section 2 */}
-      <section id="ai-career-paths" className="article-section">
+      <section id="ai-career-path-overview" className="article-section">
         <p className="section-number">02</p>
 
-        <h2>The different paths into AI</h2>
+        <h2>What are the different AI career paths?</h2>
 
         <p>
           One reason AI creates so much confusion is that “working in AI” can
@@ -79,7 +80,8 @@ function ArticleSection() {
             <span className="comparison-title">AI / ML Researcher</span>
             <p>
               Works on new algorithms, models, architectures, and methods.
-              Strong mathematics and research skills are important.
+              Strong mathematics, experimentation, and research skills are
+              important.
             </p>
           </div>
 
@@ -87,7 +89,8 @@ function ArticleSection() {
             <span className="comparison-title">Machine Learning Engineer</span>
             <p>
               Builds, trains, evaluates, deploys, and maintains machine
-              learning systems using data and models.
+              learning systems using data, models, and production
+              infrastructure.
             </p>
           </div>
 
@@ -115,7 +118,7 @@ function ArticleSection() {
       <section id="software-engineering" className="article-section">
         <p className="section-number">03</p>
 
-        <h2>What software engineering still requires</h2>
+        <h2>What does software engineering still require in the age of AI?</h2>
 
         <p>
           AI has changed how software is written, but software engineering
@@ -126,14 +129,14 @@ function ArticleSection() {
           A real software project starts before the first line of code.
           Someone has to understand the problem, identify requirements,
           decide how the system should behave, choose an architecture, design
-          the data flow, handle failures, and think about security and
-          maintainability.
+          the data flow, handle failures, and think about security,
+          performance, and maintainability.
         </p>
 
         <p>
           Then comes implementation. AI can help significantly here, but the
           engineer still needs to determine whether the generated solution
-          fits the system.
+          fits the system and solves the actual problem.
         </p>
 
         <h3>Technical judgment matters</h3>
@@ -158,8 +161,9 @@ function ArticleSection() {
         </ul>
 
         <p>
-          These questions are part of engineering judgment. They cannot be
-          replaced simply by asking an AI model to generate more code.
+          These questions are part of engineering judgment. They are among the
+          reasons strong software engineering fundamentals still matter when
+          AI can generate code in seconds.
         </p>
       </section>
 
@@ -191,7 +195,8 @@ function ArticleSection() {
 
         <p>
           You do not need to learn every frontend framework. Pick one stack
-          and understand how it actually works.
+          and understand how it actually works, including component
+          architecture, state, routing, performance, and accessibility.
         </p>
 
         <h3>3. Learn backend engineering</h3>
@@ -214,6 +219,8 @@ function ArticleSection() {
         <p>
           A developer who understands how an application reaches production
           has a much better picture of the complete software lifecycle.
+          Learn the basics of hosting, environments, domains, logs,
+          monitoring, and deployment.
         </p>
 
         <h3>6. Learn enough AI to use it effectively</h3>
@@ -235,7 +242,7 @@ function ArticleSection() {
       <section id="ai-vs-engineer" className="article-section">
         <p className="section-number">05</p>
 
-        <h2>What AI can and cannot replace</h2>
+        <h2>Will AI replace software engineers?</h2>
 
         <p>
           It is tempting to frame the future as a competition between AI and
@@ -259,8 +266,8 @@ function ArticleSection() {
           <p>
             The value of a developer is moving further away from simply
             producing lines of code and closer to understanding problems,
-            designing systems, making decisions, and delivering reliable
-            software.
+            designing systems, making decisions, evaluating AI output, and
+            delivering reliable software.
           </p>
         </div>
       </section>
@@ -269,17 +276,18 @@ function ArticleSection() {
       <section id="where-to-start" className="article-section">
         <p className="section-number">06</p>
 
-        <h2>Where should you start?</h2>
+        <h2>What should you learn first?</h2>
 
         <p>
           There is no single “AI roadmap” that makes sense for everyone.
           Your starting point should depend on the kind of work you want to
-          do.
+          do and the problems you want to solve.
         </p>
 
         <p>
-          If you enjoy mathematics, experiments, model behavior, and scientific
-          questions, research or machine learning may be worth exploring.
+          If you enjoy mathematics, experiments, model behavior, and
+          scientific questions, research or machine learning may be worth
+          exploring.
         </p>
 
         <p>

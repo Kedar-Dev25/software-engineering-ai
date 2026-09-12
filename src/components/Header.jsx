@@ -1,3 +1,4 @@
+
 import "../App.css";
 import "../index.css";
 
@@ -11,7 +12,7 @@ function Header() {
 
         <nav className="header-nav" aria-label="Main navigation">
           <a href="#article">Article</a>
-          <a href="#resources">Resources</a>
+          <a href="#resources">Learning Resources</a>
           <a
             href="https://github.com/Kedar-Dev25"
             target="_blank"

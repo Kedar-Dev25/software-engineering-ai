@@ -1,13 +1,12 @@
 import "../App.css";
 import "../index.css";
 
-
 function Resources() {
   const resources = [
     {
       category: "Web fundamentals",
       description:
-        "Build a strong understanding of how the web actually works before relying heavily on frameworks.",
+        "Start with the fundamentals that explain how websites and web applications actually work before relying heavily on frameworks.",
       links: [
         {
           name: "MDN Web Docs",
@@ -18,7 +17,7 @@ function Resources() {
     {
       category: "Java & backend engineering",
       description:
-        "Learn the language and backend technologies deeply enough to understand the systems you build.",
+        "Build a strong backend foundation and learn the technologies behind APIs, application logic, and production software systems.",
       links: [
         {
           name: "Oracle Java Documentation",
@@ -37,7 +36,7 @@ function Resources() {
     {
       category: "Frontend development",
       description:
-        "Understand component-based UI development and the fundamentals behind modern frontend applications.",
+        "Learn how modern frontend applications are built and understand the concepts behind component-based user interfaces.",
       links: [
         {
           name: "React Documentation",
@@ -48,7 +47,7 @@ function Resources() {
     {
       category: "Machine learning",
       description:
-        "If you want to understand machine learning beyond simply calling an AI API, start with the fundamentals.",
+        "If you want to understand machine learning beyond simply calling an AI API, use these resources to build a foundation in models, data, and machine learning concepts.",
       links: [
         {
           name: "Google Machine Learning Crash Course",
@@ -63,7 +62,7 @@ function Resources() {
     {
       category: "Building with AI",
       description:
-        "Learn how modern AI models can be integrated into real applications and software systems.",
+        "Learn how modern AI models, APIs, and tools can be integrated into real applications instead of treating AI as a separate technology from software engineering.",
       links: [
         {
           name: "OpenAI Developer Documentation",
@@ -82,12 +81,14 @@ function Resources() {
       <div className="resources-intro">
         <p className="section-number">09</p>
 
-        <h2>Where should you learn from?</h2>
+        <h2>Where can you actually learn these skills?</h2>
 
         <p>
           Once you know which direction interests you, choose resources that
           help you build the required foundation. You do not need to consume
-          dozens of courses at once.
+          dozens of courses at once. Start with reliable documentation and
+          learning material, then apply what you learn by building real
+          software.
         </p>
       </div>
 

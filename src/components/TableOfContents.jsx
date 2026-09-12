@@ -5,31 +5,15 @@ function TableOfContents() {
   const sections = [
     {
       id: "what-ai-does",
-      label: "What AI actually does",
+      label: "What AI actually does in software development",
     },
     {
-      id: "ai-career-paths",
-      label: "The different paths into AI",
-    },
-    {
-      id: "ai-researcher",
-      label: "AI / ML Researcher",
-    },
-    {
-      id: "ml-engineer",
-      label: "Machine Learning Engineer",
-    },
-    {
-      id: "ai-engineer",
-      label: "AI Engineer",
-    },
-    {
-      id: "ai-powered-software",
-      label: "AI-Powered Software Engineer",
-    },
+  id: "ai-career-path-overview",
+  label: "What are the different AI career paths?",
+},
     {
       id: "software-engineering",
-      label: "What software engineering still requires",
+      label: "What does software engineering still require?",
     },
     {
       id: "web-developer-2026",
@@ -37,11 +21,11 @@ function TableOfContents() {
     },
     {
       id: "ai-vs-engineer",
-      label: "What AI can and cannot replace",
+      label: "Will AI replace software engineers?",
     },
     {
       id: "where-to-start",
-      label: "Where should you start?",
+      label: "What should you learn first?",
     },
     {
       id: "resources",
