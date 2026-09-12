@@ -185,13 +185,21 @@ main {
    Table of Contents
    ========================================================= */
 
-/* ========================================
+/* =========================================================
    Table of Contents
-======================================== */
+   ========================================================= */
 
 .table-of-contents {
-  width: 100%;
-  margin-bottom: 48px;
+  display: none;
+}
+
+
+/* ========================================
+   Mobile Floating TOC
+======================================== */
+
+.toc-mobile-toggle {
+  display: none;
 }
 
 .toc-inner {
@@ -269,6 +277,128 @@ main {
 
 
 /* ========================================
+   Mobile — Appears after scrolling
+======================================== */
+
+@media (max-width: 640px) {
+
+  .table-of-contents.toc-is-scrolled {
+    display: block;
+
+    position: fixed;
+    top: 72px;
+    left: 16px;
+    right: 16px;
+
+    z-index: 90;
+
+    width: auto;
+    margin: 0;
+  }
+
+  .table-of-contents.toc-is-scrolled .toc-inner {
+    padding: 0;
+
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .table-of-contents.toc-is-scrolled .toc-mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    min-height: 46px;
+    padding: 0 14px;
+
+    border: 0;
+    background: transparent;
+
+    cursor: pointer;
+  }
+
+  .table-of-contents.toc-is-scrolled
+    .toc-mobile-toggle
+    .toc-label {
+    margin: 0;
+  }
+
+  .toc-toggle-icon {
+    color: #64748b;
+    font-size: 1rem;
+    line-height: 1;
+
+    transition: transform 0.25s ease;
+  }
+
+  .table-of-contents.toc-is-scrolled.toc-is-open
+    .toc-toggle-icon {
+    transform: rotate(180deg);
+  }
+
+  /* Smooth open / close */
+
+  .table-of-contents.toc-is-scrolled nav {
+    display: block;
+
+    max-height: 0;
+    overflow: hidden;
+
+    padding: 0 8px;
+
+    opacity: 0;
+
+    border-top: 1px solid transparent;
+
+    transform: translateY(-4px);
+
+    transition:
+      max-height 0.3s ease,
+      opacity 0.2s ease,
+      transform 0.3s ease,
+      padding 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .table-of-contents.toc-is-scrolled.toc-is-open
+    nav {
+    max-height: 70vh;
+    overflow-y: auto;
+
+    padding: 4px 8px 10px;
+
+    opacity: 1;
+
+    border-top-color: #eef2f7;
+
+    transform: translateY(0);
+  }
+
+  .table-of-contents.toc-is-scrolled.toc-is-open
+    nav a {
+    padding: 9px 8px;
+  }
+
+  /* Prevent section headings from hiding behind
+     the sticky header + floating TOC */
+
+  .article-section,
+  .career-path-section,
+  .decision-guide,
+  .resources-section {
+    scroll-margin-top: 126px;
+  }
+}
+
+
+/* ========================================
    Tablet
 ======================================== */
 
@@ -288,9 +418,7 @@ main {
 }
 
 
-/* ========================================
-   Desktop
-======================================== 
+
 
 
 /* ========================================
@@ -1580,10 +1708,11 @@ main {
   }
 
   .table-of-contents {
-    position: sticky;
-    top: 88px;
-    margin-bottom: 0;
-  }
+  display: block;
+  position: sticky;
+  top: 88px;
+  margin-bottom: 0;
+}
 
   .toc-inner {
     padding: 0;
