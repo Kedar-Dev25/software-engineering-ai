@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: YOUR_PRODUCTION_URL/sitemap.xml
+Sitemap: https://software-engineering-ai.vercel.app/sitemap.xml
