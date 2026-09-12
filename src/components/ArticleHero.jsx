@@ -26,6 +26,12 @@ function ArticleHero() {
           <span>•</span>
           <span>Software Engineering & AI</span>
         </div>
+        <p className="article-intro">
+          I wanted to share my perspective on how AI is changing software
+          development, the skills that still matter, and where I think
+          developers should focus next.
+        </p>
+
       </div>
     </section>
   );

@@ -25,12 +25,12 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>© 2026 Kedarnath Mandal</span>
+  <span>© 2026 Kedarnath Mandal</span>
 
-          <span>
-            Built with React
-          </span>
-        </div>
+  <span>
+    Written by Kedarnath Mandal · Software Product Developer & Web Developer
+  </span>
+</div>
       </div>
     </footer>
   );
